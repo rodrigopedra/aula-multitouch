@@ -5,8 +5,6 @@ var respondeToque = function ( evento ) {
     var frases = [];
     
     saida.innerHTML = '';
-    
-    log('toque');
 
     if ( evento.touches.item(0) == evento.targetTouches.item(0) ) {
         frases.push('Você tocou aqui!');
