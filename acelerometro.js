@@ -5,8 +5,7 @@ var moveSombra = function (evento) {
     var y = evento.beta ? evento.beta : evento.y * 90;
 	var aux;
 		
-	if  (
-		( typeof window.orientation !== 'undefined' &&
+	if  ( typeof window.orientation !== 'undefined' &&
 		(window.orientation == 90 || window.orientation === -90 ) ) {
 		// landscape / deitado
 		aux = x;
