@@ -50,7 +50,12 @@
         </div>
     </div>
     
+    <p id="output"></p>
+    
     <!-- Mudar para javascript personalizado -->
+    <script>
+        var log = function (mensagem) { document.querySelector('#output').innerHTML += mensagem + '<br>'; };
+    </script>
     <script src="multitouch.js"></script>
     <script src="acelerometro.js"></script>
 </body>
